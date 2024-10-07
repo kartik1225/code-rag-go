@@ -1,4 +1,4 @@
-# Code Context Generator
+# Code Rag Go
 
 CLI tool that serves as an on-the-go RAG (Retrieval-Augmented Generation) system for your codebase. It quickly generates a single text file containing your entire code context, optimized for use with Large Language Models (LLMs) like Claude and ChatGPT.
 
@@ -27,7 +27,7 @@ npx code-context-generator generate <directory> [options]
 ### Command
 
 ```
-cc generate <directory> [options]
+crg generate <directory> [options]
 ```
 
 ### Options
@@ -41,7 +41,7 @@ cc generate <directory> [options]
 ### Example
 
 ```
-cc generate ./my-project -m -o project_context.txt
+crg generate ./my-project -m -o project_context.txt
 ```
 
 This command will generate a context file for the `./my-project` directory, stripping comments, removing blank lines, respecting .gitignore rules, and saving the output to `project_context.txt`.

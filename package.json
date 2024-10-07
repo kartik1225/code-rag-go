@@ -1,10 +1,10 @@
 {
-  "name": "code-context",
+  "name": "code-rag-go",
   "version": "1.0.0",
   "description": "CLI tool to generate a single text file containing your entire codebase, optimized for use with LLMs like Claude and ChatGPT",
   "main": "dist/cli/index.js",
   "bin": {
-    "cc": "./dist/cli/index.js"
+    "crg": "./dist/cli/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -15,12 +15,23 @@
   "keywords": [
     "cli",
     "code-context",
+    "llm",
+    "chatgpt",
+    "claude",
     "code-analysis",
     "directory-tree",
     "file-aggregator"
   ],
-  "author": "Kartikey Garasiya garasiakartik@gmail.com",
+  "author": "Kartik <your.email@example.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kartik1225/code-context.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kartik1225/code-context/issues"
+  },
+  "homepage": "https://github.com/kartik1225/code-context#readme",
   "dependencies": {
     "commander": "^12.1.0",
     "directory-tree": "^3.5.2",
