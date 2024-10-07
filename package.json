@@ -1,0 +1,39 @@
+{
+  "name": "code-context",
+  "version": "1.0.0",
+  "description": "CLI tool to generate a single text file containing your entire codebase, optimized for use with LLMs like Claude and ChatGPT",
+  "main": "dist/cli/index.js",
+  "bin": {
+    "cc": "./dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli/index.js",
+    "dev": "ts-node src/cli/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "code-context",
+    "code-analysis",
+    "directory-tree",
+    "file-aggregator"
+  ],
+  "author": "Kartikey Garasiya garasiakartik@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "directory-tree": "^3.5.2",
+    "ignore": "^6.0.2",
+    "strip-comments": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "@types/strip-comments": "^2.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
