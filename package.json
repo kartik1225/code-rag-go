@@ -1,6 +1,6 @@
 {
   "name": "code-rag-go",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool to generate a single text file containing your entire codebase, optimized for use with LLMs like Claude and ChatGPT",
   "main": "dist/cli/index.js",
   "bin": {
@@ -22,7 +22,7 @@
     "directory-tree",
     "file-aggregator"
   ],
-  "author": "Kartik <your.email@example.com>",
+  "author": "Kartik garasiakartik@gmail.com",
   "license": "ISC",
   "repository": {
     "type": "git",
