@@ -14,20 +14,9 @@ CLI tool that serves as an on-the-go RAG (Retrieval-Augmented Generation) system
 
 ## Usage
 
-Install globally:
+use with npx:
 ```
-npm install -g code-context-generator
-```
-
-Or use with npx:
-```
-npx code-context-generator generate <directory> [options]
-```
-
-### Command
-
-```
-crg generate <directory> [options]
+npx code-rag-go gen <directory-to-your-codebase> [options]
 ```
 
 ### Options
@@ -41,7 +30,7 @@ crg generate <directory> [options]
 ### Example
 
 ```
-crg generate ./my-project -m -o project_context.txt
+crg gen ./my-project -m -o project_context.txt
 ```
 
 This command will generate a context file for the `./my-project` directory, stripping comments, removing blank lines, respecting .gitignore rules, and saving the output to `project_context.txt`.
