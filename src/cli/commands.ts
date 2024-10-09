@@ -13,6 +13,7 @@ export function setupCommands(program: Command): void {
         .option('--remove-blank-lines', 'Remove blank lines from the code')
         .option('--respect-gitignore', 'Respect .gitignore rules')
         .option('-min', 'Apply --strip-comments, --remove-blank-lines, and --respect-gitignore')
+
         .option('-o, --output <file>', 'Output file path')
         .action(async (directory, options) => {
             try {

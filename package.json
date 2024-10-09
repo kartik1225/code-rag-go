@@ -26,12 +26,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kartik1225/code-context.git"
+    "url": "git+https://github.com/kartik1225/code-rag-go.git"
   },
   "bugs": {
-    "url": "https://github.com/kartik1225/code-context/issues"
+    "url": "https://github.com/kartik1225/code-rag-go/issues"
   },
-  "homepage": "https://github.com/kartik1225/code-context#readme",
+  "homepage": "https://github.com/kartik1225/code-rag-go#readme",
   "dependencies": {
     "commander": "^12.1.0",
     "directory-tree": "^3.5.2",

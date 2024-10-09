@@ -10,7 +10,7 @@ export interface FileSystemNode {
 }
 
 export function loadGitignore(directory: string): Ignore {
-    const ig = ignore().add('.git');  // Always ignore .git folder
+    const ig = ignore().add('.git');
     const gitignorePath = path.join(directory, '.gitignore');
     if (fs.existsSync(gitignorePath)) {
         const gitignoreContent = fs.readFileSync(gitignorePath, 'utf8');
